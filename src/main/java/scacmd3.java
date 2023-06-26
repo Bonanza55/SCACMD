@@ -33,6 +33,7 @@
  2.1 Oct 14 2016 - add -v option.
  3.0 Sep 17 2020 - Removed SEED, added keyCksum to fix array index bug.
                    Not backwards compatabl with version 2.
+ 3.1 Jun 26 2023 - Published on GitHub.
 
  To make Jar file:
 
