@@ -327,7 +327,7 @@ public final class scacmd3 {
   private static int gotIN  = 0;          // got an input file name
   private static int gotOUT = 0;          // got an output file name
 
-  private static String VERSION  = "3.0"; // Release version
+  private static String VERSION  = "3.1"; // Release version
   private static int KEY_DIGEST  = 32;    // Cipher Key hash size
 
   private static int keylen     = 0;             // Chiper key length 
