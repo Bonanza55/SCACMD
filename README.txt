@@ -48,7 +48,7 @@
  jar -cvfm Scacmd.jar manifest.txt ArrayH.class ArrayZ.class ArrayA.class ArrayS.class GetOpt.class SHA256Utils.class RubiksCubeCipher54.class Scacmd.class
 
  To test:
- cat Gettysburg.txt | java -jar scacmd.jar -e -p 1am2C00L! | java -jar scacmd.jar -d -p 1am2C00L! 
+ cat Gettysburg.txt | java -jar scacmd.jar -e -p myPasswOrd! | java -jar scacmd.jar -d -p myPasswOrd! 
 
  To bitmap encode:
  cat peterbilt.jpg | java -jar scacmd.jar -e -p 1am2C00L! > pb.enc
@@ -61,3 +61,4 @@
    770339206 160304 peterbilt.jpg
  cksum pb.jpg       
    770339206 160304 pb.jpg
+
