@@ -51,12 +51,12 @@
  cat Gettysburg.txt | java -jar scacmd.jar -e -p myPasswOrd! | java -jar scacmd.jar -d -p myPasswOrd! 
 
  To bitmap encode:
- cat peterbilt.jpg | java -jar scacmd.jar -e -p 1am2C00L! > pb.enc
+ cat peterbilt.jpg | java -jar scacmd.jar -e -p ThePassCode > pb.enc
  python3 b2p.py -e -i pb.enc -p pb.jpg -o pb.png                  
    Success: Saved to pb.png
  python3 b2p.py -d -i pb.png -o restored_pb.enc -p True
    Success: Decoded 160308 bytes to restored_pb.enc
- cat restored_pb.enc | java -jar scacmd.jar -d -p 1am2C00L! > pb.jpg
+ cat restored_pb.enc | java -jar scacmd.jar -d -p ThePassCode > pb.jpg
  cksum peterbilt.jpg
    770339206 160304 peterbilt.jpg
  cksum pb.jpg       
